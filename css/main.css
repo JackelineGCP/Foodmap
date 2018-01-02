@@ -1,6 +1,28 @@
-* {
+/* RESET */
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
+.grad10 {
+  background-color: #fee6cc; 
+}
+.img-responsive{
+  height:100% ;
+  width: 100%;
+  padding: 20%;
+}
+
+.foodmap {
+  color:  rgb(192, 48, 48);
+  font-weight: 800;
+  text-align: center;
+  padding: 20px; 
+  
+}
+
+.foodmap-logo {
+  width: 100%;
+}

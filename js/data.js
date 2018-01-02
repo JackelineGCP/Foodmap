@@ -1,4 +1,4 @@
-var restaurants = [
+var data = [
   {
     name: 'Polleria BEGUI',
     type: 'Polleria',

@@ -1,4 +1,3 @@
-/* RESET */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -9,10 +8,11 @@
 .grad10 {
   background-color: #fee6cc; 
 }
+
 .img-responsive{
   height:100% ;
   width: 100%;
-  padding: 20%;
+  padding: 10%;
 }
 
 .foodmap {
@@ -20,9 +20,13 @@
   font-weight: 800;
   text-align: center;
   padding: 20px; 
-  
 }
 
 .foodmap-logo {
   width: 100%;
+}
+
+.h3-foodmap {
+  font-weight: 700;
+  color: rgb(192, 48, 48);
 }

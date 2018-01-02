@@ -13,12 +13,39 @@
 <body class="grad10">
   <header>
     <h1 class="foodmap text-center">Foodmap</h1>
+    <div class="container-fluid">
+      <hr>
+      <div class="cuadrado box-left"></div>
+      <div class="cuadrado box-right"></div>
+    </div>
   </header>
   <main>
     <section id="map" class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
-          <iframe frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCT2GpxF7X_3dlLQVdNOqmzlHBaJVHXwwA&q=restaurants+in+Sajn Juan de Lurigancho"></iframe>
+          <iframe class="map" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCT2GpxF7X_3dlLQVdNOqmzlHBaJVHXwwA&q=restaurants+in+Sajn Juan de Lurigancho"></iframe>
         </div>
       </div>
     </section>
+    <section id="filter" class="container-fluid">
+      <h3 class="h3 text-center h3-foodmap">Restaurant cerca</h3>
+      <form class="navbar-form navbar-left">
+        <!-- Filtro por plato -->
+        <div class="form-group">
+          <input type="text" id="search-bar" class="form-control" placeholder="¿Qué desea comer hoy?">
+        </div>
+      </form>
+    </section>
+    <section id="results" class="container-fluid">
+      <div class="row">
+        <ul class="list-unstyled clearfix"></ul>
+      </div>
+    </section>
+   
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/data.js"></script>
+  <script type="text/javascript" src="../js/app.js"></script> 
+</body>
+</html>
